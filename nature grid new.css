@@ -1,0 +1,123 @@
+:root {
+    --body-bg-color: #16261c;
+    --body-text-color: #eae3d2;
+    --hr-color: #2f4a35b0;
+
+    --appDiv-hover-bg: rgba(122, 158, 96, 0.25);
+    --appDiv-bottom-button-hover-bg: rgba(120, 150, 100, 0.5);
+    --appDiv-bottom-button-color: #eae3d2;
+
+    --tooltip-bg: #f2ecd8;
+    --tooltip-text: #24331f;
+    --tooltip-border: #3d5c2f;
+
+    --search-input-text: #24331f;
+    --search-input-bg: #f2ecd8;
+    --search-button-bg: #f2ecd8;
+    --search-button-border: #f2ecd8;
+    --search-button-text: #4a6741;
+    --search-button-hover-text: rgb(139 163 122);
+    --search-button-focus-active: #6b9b5c;
+
+    --iconbtn-color: #e2dcc4;
+    --iconbtn-hover: #a9c48f;
+    --iconbtn-active: #6b9b5c;
+
+    --settings-input-disabled-bg: #d9d3bd;
+    --settings-input-disabled-text: #24331f;
+
+    --utilaction-button-bg: #d9d3bd;
+    --utilaction-button-text: #24331f;
+    --utilaction-button-hover-text: #4a6741;
+
+    --controls-button-bg: #4a6741;
+    --controls-button-text: #eae3d2;
+    --controls-button-hover-bg: #5c7d4f;
+    --controls-button-hover-text: #f2ecd8;
+    --controls-button-active-bg: #354c2d;
+    --controls-button-active-text: #d9d3bd;
+
+    --switch-slider-bg: #4a4432;
+    --switch-slider-before-bg: #f2ecd8;
+    --switch-checked-bg: #6b9b5c;
+
+    --movemodal-bg: #1c2b1a;
+    --movemodal-boder: #3d5c2fd1;
+    --movemodal-text: #eae3d2;
+    --movemodal-backdrop: #10190f66;
+    --movemodal-movebutton-bg: #f2ecd8;
+    --movemodal-movebutton-text: #24331f;
+    --movemodal-movebutton-textdecoration: #b7c9a8;
+    --movemodal-movebutton-hover-bg: rgb(226, 222, 202);
+
+    --movemodal-head-button-text: #eae3d2;
+    --movemodal-head-button-hover-text: rgb(169, 196, 143);
+
+    --categories-dialog-bg: #1c2b1a;
+    --categories-dialog-box-shadow: rgba(155, 196, 138, 0.2);
+    --categories-dialog-backdrop: #0b120950;
+
+    --custom-checkbox-label: #eae3d2;
+    --custom-checkbox-checkmark-bg: #e2ddc8;
+    --custom-checkbox-checkmark-border: #a9a184;
+    --custom-ckeckbox-checked-checkmark-bg: #4caf50;
+    --custom-ckeckbox-checked-checkmark-border: #4caf50;
+    --custom-ckeckbox-ckeckmark-after-border: white;
+
+    --title-bar-h3-color: #eae3d2;
+
+    /* context menu also applies to submenues */
+    --context-menu-bg: #1f2f1c;
+    --context-menu-border: #14200f;
+    --context-menu-box-shadow: rgba(0, 0, 0, 0.35);
+    --context-menu-li-hover-bg: #2b402a;
+    --context-menu-checkbox-label-text: #eae3d2;
+    --context-menu-checkbox-check-border: #eae3d2;
+
+    /* This is only used on one button */
+    --active-item-color: #7fbf65;
+    --active-item-hover-color: #649c4f;
+    --active-item-active-color: #47773a;
+
+    /* Shouldn't be changed because it sits on the app images 
+    only change for hyper custon themes */
+    --app-checkbox-border-color: #556b4f;
+    --app-checkbox-checked-bg: #4caf50;
+
+    /* Appears ontop on the app image and holds the apps categories as a list */
+    --app-category-overlay-bg: rgba(15, 25, 12, 0.72);
+    --app-category-overlay-text: #eae3d2;
+
+    --controller-info-bg: #1a2818;
+    --controller-info-text: #eae3d2;
+
+    --scrollbar-track: #1b2a17;
+    --scrollbar-thumb: #4a6741;
+    --scrollbar-thumb-hover: #6b9b5c;
+
+    --ms-button-text: #c7cdb8;
+    --ms-button-hover-text: #eae3d2;
+    --ms-button-hover-bg: rgba(107, 155, 92, 0.2);
+    --ms-hr-color: #2e3c26;
+    --ms-p-border: #eae3d2;
+    --ms-p-hover: #26351f;
+
+    --add-util-action-input-border: #4a6741;
+    --add-util-action-input-bg: #223420;
+    --add-util-action-input-text: #eae3d2;
+    --add-util-action-button-text: #d9d3bd;
+    --add-util-action-button-inactive: #6b3016;
+    --add-util-action-button-hover: #f2ecd8;
+    --add-util-action-button-inactive-hover: #9a4620;
+
+    --image-search-disabled: rgba(180, 200, 165, 0.25);
+    --image-search-diabled-text: #eae3d2;
+}
+
+/* Nature gradient backdrop, layered over the base html/body rule in style.css.
+   Loaded after style.css so this wins on equal specificity. */
+html,
+body {
+    background: linear-gradient(160deg, #0d1a10 0%, #16261c 35%, #223321 65%, #1a2a17 100%);
+    background-attachment: fixed;
+}
