@@ -1,0 +1,132 @@
+:root {
+    --body-bg-color: #0b0b0d;
+    --body-text-color: #e8e6df;
+    --hr-color: #2a2a2eb0;
+
+    --appDiv-hover-bg: rgba(242, 201, 76, 0.12);
+    --appDiv-bottom-button-hover-bg: rgba(242, 201, 76, 0.22);
+    --appDiv-bottom-button-color: #e8e6df;
+
+    --tooltip-bg: #f2c94c;
+    --tooltip-text: #0b0b0d;
+    --tooltip-border: #000000;
+
+    --search-input-text: #cfcdc4;
+    --search-input-bg: #1c1c20;
+    --search-button-bg: #1c1c20;
+    --search-button-border: #1c1c20;
+    --search-button-text: #f2c94c;
+    --search-button-hover-text: rgb(255 224 130);
+    --search-button-focus-active: #f2c94c;
+
+    --iconbtn-color: #cfcdc4;
+    --iconbtn-hover: #f2c94c;
+    --iconbtn-active: #b89a2f;
+
+    --settings-input-disabled-bg: #3a3a3f;
+    --settings-input-disabled-text: #9a988f;
+
+    --settings-input-bg: #1c1c20;
+    --settings-input-text: white;
+    --utilaction-button-bg: #1c1c20;
+    --utilaction-button-text: #f2c94c;
+    --utilaction-button-hover-text: #ffe082;
+
+    --controls-button-bg: #2a2a2e;
+    --controls-button-text: #e8e6df;
+    --controls-button-hover-bg: #3a3a40;
+    --controls-button-hover-text: #f2c94c;
+    --controls-button-active-bg: #17171a;
+    --controls-button-active-text: #f2c94c;
+
+    --switch-slider-bg: #2a2a2e;
+    --switch-slider-before-bg: #e8e6df;
+    --switch-checked-bg: #f2c94c;
+
+    --movemodal-bg: #141416;
+    --movemodal-boder: #f2c94cd1;
+    --movemodal-text: #e8e6df;
+    --movemodal-backdrop: #00000080;
+    --movemodal-movebutton-bg: #f2c94c;
+    --movemodal-movebutton-text: #0b0b0d;
+    --movemodal-movebutton-textdecoration: #4a4526;
+    --movemodal-movebutton-hover-bg: rgb(255, 216, 110);
+
+    --movemodal-head-button-text: #e8e6df;
+    --movemodal-head-button-hover-text: #f2c94c;
+
+    --categories-dialog-bg: #141416;
+    --categories-dialog-box-shadow: rgba(242, 201, 76, 0.15);
+    --categories-dialog-backdrop: #00000070;
+
+    --custom-checkbox-label: #e8e6df;
+    --custom-checkbox-checkmark-bg: #1c1c20;
+    --custom-checkbox-checkmark-border: #4a4a50;
+    --custom-ckeckbox-checked-checkmark-bg: #f2c94c;
+    --custom-ckeckbox-checked-checkmark-border: #f2c94c;
+    --custom-ckeckbox-ckeckmark-after-border: #0b0b0d;
+
+    --title-bar-h3-color: #f2c94c;
+
+    /* context menu also applies to submenues */
+    --context-menu-bg: #141416;
+    --context-menu-border: #2a2a2e;
+    --context-menu-box-shadow: rgba(0, 0, 0, 0.55);
+    --context-menu-li-hover-bg: #232326;
+    --context-menu-checkbox-label-text: #e8e6df;
+    --context-menu-checkbox-check-border: #f2c94c;
+
+    /* This is only used on one button */
+    --active-item-color: #f2c94c;
+    --active-item-hover-color: #ffd766;
+    --active-item-active-color: #b89a2f;
+
+    /* Shouldn't be changed because it sits on the app images 
+    only change for hyper custon themes */
+    --app-checkbox-border-color: #4a4a50;
+    --app-checkbox-checked-bg: #f2c94c;
+
+    /* Appears ontop on the app image and holds the apps categories as a list */
+    --app-category-overlay-bg: rgba(11, 11, 13, 0.82);
+    --app-category-overlay-text: #f2c94c;
+
+    --controller-info-bg: #141416;
+    --controller-info-text: #e8e6df;
+
+    --scrollbar-track: #141416;
+    --scrollbar-thumb: #3a3a40;
+    --scrollbar-thumb-hover: #f2c94c;
+
+    --ms-button-text: #a8a69d;
+    --ms-button-hover-text: #f2c94c;
+    --ms-button-hover-bg: rgba(242, 201, 76, 0.12);
+    --ms-hr-color: #2a2a2e;
+    --ms-p-border: #e8e6df;
+    --ms-p-hover: #1c1c20;
+
+    --add-util-action-input-border: #3a3a40;
+    --add-util-action-input-bg: #1c1c20;
+    --add-util-action-input-text: #e8e6df;
+    --add-util-action-button-text: #cfcdc4;
+    --add-util-action-button-inactive: #6b1414;
+    --add-util-action-button-hover: #f2c94c;
+    --add-util-action-button-inactive-hover: #9c1c1c;
+
+    --image-search-disabled: rgba(242, 201, 76, 0.18);
+    --image-search-disabled-text: #e8e6df;
+}
+
+/* Gotham night sky: near-black gradient with a bat-signal glow washing
+   up from one corner. Loaded after style.css so this wins over the
+   plain background-color rule there. */
+html,
+body {
+    background: linear-gradient(160deg, #050506 0%, #0b0b0d 35%, #131315 65%, #0d0d10 100%),
+        radial-gradient(circle at 78% 15%, rgba(242, 201, 76, 0.14) 0%, transparent 42%);
+    background-blend-mode: screen;
+    background-attachment: fixed;
+}
+
+.select-wrapper::after {
+    color: var(--utilaction-button-text);
+}

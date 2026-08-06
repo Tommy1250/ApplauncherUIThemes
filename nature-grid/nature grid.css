@@ -111,7 +111,7 @@
     --add-util-action-button-inactive-hover: #9a4620;
 
     --image-search-disabled: rgba(180, 200, 165, 0.25);
-    --image-search-diabled-text: #eae3d2;
+    --image-search-disabled-text: #eae3d2;
 }
 
 /* Nature gradient backdrop, layered over the base html/body rule in style.css.
