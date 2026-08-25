@@ -114,6 +114,8 @@
 
     --image-search-disabled: rgba(242, 201, 76, 0.18);
     --image-search-disabled-text: #e8e6df;
+
+    --controller-focus-color: #f2c94c;
 }
 
 /* Gotham night sky: near-black gradient with a bat-signal glow washing
