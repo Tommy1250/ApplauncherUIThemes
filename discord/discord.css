@@ -1,0 +1,252 @@
+:root {
+    --body-bg-color: #313338;
+    --body-text-color: #dbdee1;
+    --hr-color: #3f4147;
+
+    --appDiv-hover-bg: rgba(79, 84, 92, 0.4);
+    --appDiv-bottom-button-hover-bg: rgba(79, 84, 92, 0.6);
+    --appDiv-bottom-button-color: #dbdee1;
+
+    --tooltip-bg: #111214;
+    --tooltip-text: #dbdee1;
+    --tooltip-border: #1e1f22;
+
+    --search-input-text: #dbdee1;
+    --search-input-bg: #111214;
+    --search-button-bg: #111214;
+    --search-button-border: #111214;
+    --search-button-text: #ffffff;
+    --search-button-hover-text: #e3e5e8;
+    --search-button-focus-active: #5865f2;
+
+    --iconbtn-color: #b5bac1;
+    --iconbtn-hover: #dbdee1;
+    --iconbtn-active: #5865f2;
+
+    --settings-input-disabled-bg: #2e2f35;
+    --settings-input-disabled-text: #dadadc;
+
+    --settings-input-bg: #2e2f35;
+    --settings-input-text: #dadadc;
+    --utilaction-button-bg: #2e2f35;
+    --utilaction-button-text: #ffffff;
+    --utilaction-button-hover-text: #e3e5e8;
+
+    --controls-button-bg: #4e5058;
+    --controls-button-text: #dbdee1;
+    --controls-button-hover-bg: #6d6f78;
+    --controls-button-hover-text: #ffffff;
+    --controls-button-active-bg: #5865f2;
+    --controls-button-active-text: #ffffff;
+
+    --switch-slider-bg: #4e5058;
+    --switch-slider-before-bg: #dbdee1;
+    --switch-checked-bg: #23a559;
+
+    --movemodal-bg: #313338;
+    --movemodal-boder: #1e1f22;
+    --movemodal-text: #dbdee1;
+    --movemodal-backdrop: rgba(0, 0, 0, 0.6);
+    --movemodal-movebutton-bg: #5865f2;
+    --movemodal-movebutton-text: #ffffff;
+    --movemodal-movebutton-textdecoration: #dbdee1;
+    --movemodal-movebutton-hover-bg: #4752c4;
+
+    --movemodal-head-button-text: #b5bac1;
+    --movemodal-head-button-hover-text: #dbdee1;
+
+    --categories-dialog-bg: #313338;
+    --categories-dialog-box-shadow: rgba(0, 0, 0, 0.4);
+    --categories-dialog-backdrop: rgba(0, 0, 0, 0.6);
+
+    --custom-checkbox-label: #dbdee1;
+    --custom-checkbox-checkmark-bg: #1e1f22;
+    --custom-checkbox-checkmark-border: #4e5058;
+    --custom-ckeckbox-checked-checkmark-bg: #5865f2;
+    --custom-ckeckbox-checked-checkmark-border: #5865f2;
+    --custom-ckeckbox-ckeckmark-after-border: #ffffff;
+
+    --title-bar-h3-color: #f2f3f5;
+
+    --context-menu-bg: #111214;
+    --context-menu-border: #1e1f22;
+    --context-menu-box-shadow: rgba(0, 0, 0, 0.4);
+    --context-menu-li-hover-bg: #5865f2;
+    --context-menu-checkbox-label-text: #dbdee1;
+    --context-menu-checkbox-check-border: #dbdee1;
+
+    --active-item-color: #23a559;
+    --active-item-hover-color: #1e8e4f;
+    --active-item-active-color: #197b41;
+
+    --app-checkbox-border-color: #4e5058;
+    --app-checkbox-checked-bg: #5865f2;
+
+    --app-category-overlay-bg: rgba(0, 0, 0, 0.7);
+    --app-category-overlay-text: #dbdee1;
+
+    --controller-info-bg: #2b2d31;
+    --controller-info-text: #dbdee1;
+
+    --scrollbar-track: #2b2d31;
+    --scrollbar-thumb: #1a1b1e;
+    --scrollbar-thumb-hover: #131417;
+
+    --ms-button-text: #b5bac1;
+    --ms-button-hover-text: #dbdee1;
+    --ms-button-hover-bg: rgba(79, 84, 92, 0.4);
+    --ms-hr-color: #3f4147;
+    --ms-p-border: #4e5058;
+    --ms-p-hover: #3f4248;
+
+    --add-util-action-input-border: #1e1f22;
+    --add-util-action-input-bg: #1e1f22;
+    --add-util-action-input-text: #dbdee1;
+    --add-util-action-button-text: #dbdee1;
+    --add-util-action-button-inactive: #da373c;
+    --add-util-action-button-hover: #f2f3f5;
+    --add-util-action-button-inactive-hover: #a12828;
+
+    --image-clear-search-disabled: rgba(219, 222, 225, 0.3);
+    --image-search-disabled-text: #dbdee1;
+
+    /* extra Discord-only tokens */
+    --dc-blurple: #5865f2;
+    --dc-blurple-hover: #4752c4;
+    --dc-green: #23a559;
+    --dc-bg-primary: #313338;
+    --dc-bg-secondary: #2b2d31;
+    --dc-bg-tertiary: #1e1f22;
+}
+
+/* ---------- base surface ---------- */
+html,
+body {
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--dc-bg-primary);
+}
+
+/* ---------- app tiles: Discord's rounded-corner, flat-hover feel ---------- */
+.app-div {
+    border-radius: 8px;
+    transition: 0.15s ease;
+}
+
+.app-div:hover {
+    background-color: var(--appDiv-hover-bg);
+}
+
+.app-img {
+    border-radius: 8px;
+}
+
+.app-img:hover {
+    filter: brightness(0.82);
+}
+
+/* ---------- search bar: pill input like Discord's search/message box ---------- */
+.search-box > input {
+    border-radius: 8px 0 0 8px;
+    font-weight: 500;
+}
+
+.search-box > input:focus,
+.search-box > input:active {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--dc-blurple);
+}
+
+.search-box > button {
+    border-radius: 0 8px 8px 0;
+    font-weight: 600;
+}
+
+/* ---------- icon buttons ---------- */
+.iconbtn {
+    border-radius: 6px;
+    padding: 4px 6px;
+    transition: 0.15s ease;
+}
+
+.iconbtn:hover {
+    background-color: rgba(79, 84, 92, 0.4);
+}
+
+/* ---------- buttons: Discord's rounded solid buttons ---------- */
+.controls > button,
+.util-action > button {
+    border-radius: 0 4px 4px 0;
+    font-weight: 600;
+    transition: 0.15s ease;
+}
+
+.setting-select {
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.setting-label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ---------- switch toggle ---------- */
+.slider {
+    border-radius: 34px;
+}
+
+.slider:before {
+    border-radius: 50%;
+}
+
+/* ---------- dialogs / modals: Discord's card-style popouts ---------- */
+.showmove,
+.categories-dialog {
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+}
+
+.showmove > #toinput,
+.showmove > #moveperm {
+    border-radius: 4px;
+}
+
+/* ---------- context menus: Discord's rounded flyout menus ---------- */
+.context-menu,
+.submenu {
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+}
+
+.context-menu li {
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.context-menu li:hover {
+    color: #ffffff;
+}
+
+/* ---------- tooltip ---------- */
+.tooltip {
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------- checkboxes ---------- */
+.custom-checkbox .checkmark,
+.app-checkbox {
+    border-radius: 4px;
+}
+
+/* ---------- controller info panel ---------- */
+.controller {
+    border-radius: 8px;
+}
+
+/* ---------- scrollbar ---------- */
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+}

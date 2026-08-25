@@ -1,0 +1,117 @@
+:root {
+    --body-bg-color: rgb(16, 16, 16);
+    --body-text-color: whitesmoke;
+    --hr-color: #0000009e;
+
+    --appDiv-hover-bg: rgba(16, 124, 16, 0.28);
+    --appDiv-bottom-button-hover-bg: rgba(16, 124, 16, 0.65);
+    --appDiv-bottom-button-color: white;
+
+    --tooltip-bg: #107c10;
+    --tooltip-text: #ffffff;
+    --tooltip-border: #0c5c0c;
+
+    --search-input-text: white;
+    --search-input-bg: #1a1a1a;
+    --search-button-bg: #107c10;
+    --search-button-border: #107c10;
+    --search-button-text: #ffffff;
+    --search-button-hover-text: rgb(190, 235, 190);
+    --search-button-focus-active: #16a616;
+
+    --iconbtn-color: white;
+    --iconbtn-hover: #16a616;
+    --iconbtn-active: #0c5c0c;
+
+    --settings-input-bg: #1a1a1a;
+    --settings-input-text: white;
+    --settings-input-disabled-bg: #1a1a1a;
+    --settings-input-disabled-text: #888888;
+
+    --utilaction-button-bg: rgb(16, 124, 16);
+    --utilaction-button-text: rgb(255, 255, 255);
+    --utilaction-button-hover-text: rgb(190, 235, 190);
+
+    --controls-button-bg: #107c10;
+    --controls-button-text: rgb(255, 255, 255);
+    --controls-button-hover-bg: #16a616;
+    --controls-button-hover-text: rgb(255, 255, 255);
+    --controls-button-active-bg: #0c5c0c;
+    --controls-button-active-text: rgb(215, 215, 215);
+
+    --switch-slider-bg: #4d4d4d;
+    --switch-slider-before-bg: white;
+    --switch-checked-bg: #107c10;
+
+    --movemodal-bg: #141414;
+    --movemodal-boder: #107c10d1;
+    --movemodal-text: #ececec;
+    --movemodal-backdrop: #10101066;
+    --movemodal-movebutton-bg: #107c10;
+    --movemodal-movebutton-text: #ffffff;
+    --movemodal-movebutton-textdecoration: #b9e6b9;
+    --movemodal-movebutton-hover-bg: #16a616;
+
+    --movemodal-head-button-text: #f5f5f5;
+    --movemodal-head-button-hover-text: #16a616;
+
+    --categories-dialog-bg: #141414;
+    --categories-dialog-box-shadow: rgba(16, 124, 16, 0.35);
+    --categories-dialog-backdrop: #00000050;
+
+    --custom-checkbox-label: whitesmoke;
+    --custom-checkbox-checkmark-bg: #2a2a2a;
+    --custom-checkbox-checkmark-border: #4d4d4d;
+    --custom-ckeckbox-checked-checkmark-bg: #107c10;
+    --custom-ckeckbox-checked-checkmark-border: #107c10;
+    --custom-ckeckbox-ckeckmark-after-border: white;
+
+    --title-bar-h3-color: whitesmoke;
+
+    /* context menu also applies to submenues */
+    --context-menu-bg: rgb(20, 20, 20);
+    --context-menu-border: rgb(16, 124, 16);
+    --context-menu-box-shadow: rgba(0, 0, 0, 0.3);
+    --context-menu-li-hover-bg: rgba(16, 124, 16, 0.3);
+    --context-menu-checkbox-label-text: whitesmoke;
+    --context-menu-checkbox-check-border: white;
+
+    /* This is only used on one button */
+    --active-item-color: #107c10;
+    --active-item-hover-color: #16a616;
+    --active-item-active-color: #0c5c0c;
+
+    /* Shouldn't be changed because it sits on the app images 
+    only change for hyper custon themes */
+    --app-checkbox-border-color: #555;
+    --app-checkbox-checked-bg: #107c10;
+
+    /* Appears ontop on the app image and holds the apps categories as a list */
+    --app-category-overlay-bg: rgba(0, 0, 0, 0.75);
+    --app-category-overlay-text: #fff;
+
+    --controller-info-bg: #0e0e0e;
+    --controller-info-text: #ffffff;
+
+    --scrollbar-track: #1a1a1a;
+    --scrollbar-thumb: #107c10;
+    --scrollbar-thumb-hover: #16a616;
+
+    --ms-button-text: #cecece;
+    --ms-button-hover-text: white;
+    --ms-button-hover-bg: rgba(16, 124, 16, 0.25);
+    --ms-hr-color: #2a2a2a;
+    --ms-p-border: #107c10;
+    --ms-p-hover: rgb(30, 30, 30);
+
+    --add-util-action-input-border: rgb(77, 77, 77);
+    --add-util-action-input-bg: rgb(30, 30, 30);
+    --add-util-action-input-text: whitesmoke;
+    --add-util-action-button-text: rgb(207, 207, 207);
+    --add-util-action-button-inactive: #a20101;
+    --add-util-action-button-hover: #16a616;
+    --add-util-action-button-inactive-hover: #e50000;
+
+    --image-clear-search-disabled: rgba(239, 239, 239, 0.3);
+    --image-search-disabled-text: white;
+}
